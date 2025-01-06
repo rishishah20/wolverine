@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Video and SVG</title>
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .video-container {
+            margin-bottom: 20px;
+        }
+        .svg-container {
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+        .video-frame {
+            width: 560px;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- YouTube Video Embed -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QdBZY2fkU-0?si=T0De69kFnJGtIT_3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <!-- SVG Graphic -->
+        <div class="svg-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="yellow" />
+                <text x="50" y="50" font-size="12" text-anchor="middle" dy=".3em" fill="black">SVG</text>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
