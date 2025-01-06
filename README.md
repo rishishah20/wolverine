@@ -1,2 +1,2 @@
 # wolverine
-This is a Simple Page.
+This is a MARVEL Page.
